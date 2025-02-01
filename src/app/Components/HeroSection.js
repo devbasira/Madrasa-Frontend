@@ -36,7 +36,7 @@ return (
 
 export  function ToggleMenu({showMenu}){
 
-return(<>
+return(
    <div className={`h-[100vh]  py-20 px-10 w-full fixed ${showMenu ? 'right-[0%]':'right-[-100%]'} transition-all duration-[1500ms] bg-[#f2f2f2] ` }>
 
    <div className="p-3 hover:bg-slate-300 cursor-pointer">Home</div>
@@ -45,7 +45,7 @@ return(<>
 
    </div>
 
-</>)
+)
 
 
 }
@@ -234,13 +234,13 @@ export function Boxes(){
 
       return (
 
-         <>
+      
             <div style={{backgroundColor:'grey'}} className=" text-white h-full w-full hover:greyscale-100 cursor-pointer ">
                
 
             </div>
 
-         </>
+      
       )
 
 }

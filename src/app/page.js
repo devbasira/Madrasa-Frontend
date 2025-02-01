@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <div className="">
    <Header setshowMenu={setshowMenu} showMenu={showMenu}/>
-   {/* <ToggleMenu showMenu={showMenu}/>
-   <HeroSection/>
+   <ToggleMenu showMenu={showMenu}/>
+   {/* <HeroSection/>
    <AboutSection/>
    <FeatureCourse/>
    <Popular/>
