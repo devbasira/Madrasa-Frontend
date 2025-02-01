@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Header({setshowMenu,showMenu }) {
     return (
-      <header className="flex justify-center w-full">
+      <header className="flex justify-center w-full ">
 <div className='max-w-screen-lg w-full flex justify-between py-5 px-5 lg:px-0'>
 
 

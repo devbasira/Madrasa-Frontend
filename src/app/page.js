@@ -16,13 +16,13 @@ export default function Home() {
     <div className="">
    <Header setshowMenu={setshowMenu} showMenu={showMenu}/>
    <ToggleMenu showMenu={showMenu}/>
-   {/* <HeroSection/>
+   <HeroSection/>
    <AboutSection/>
    <FeatureCourse/>
    <Popular/>
    <Testimonial/>
    <LeaderShip/>
-   <Footer/> */}
+   <Footer/>
 
   
     
