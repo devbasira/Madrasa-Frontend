@@ -1,32 +1,31 @@
 "use client";
-import { useEffect, useState } from "react";
-import Header from './Components/Header.js'
-import { Footer } from "@/app/Components/Footer.js";
-import { HeroSection,AboutSection, FeatureCourse, Popular, Testimonial, LeaderShip, ToggleMenu } from "@/app/Components/HeroSection.js";
+import {HeroSection, Footer, Header, Pricing} from "./Components/HomePage";
 
 export default function Home() {
- const [showMenu, setshowMenu] = useState(false);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      console.log("Size:", window.innerWidth);
-    }
-  }, []);
+
 
   return (
-    <div className="">
-   <Header setshowMenu={setshowMenu} showMenu={showMenu}/>
-   <ToggleMenu showMenu={showMenu}/>
-   <HeroSection/>
-   <AboutSection/>
-   <FeatureCourse/>
-   <Popular/>
-   <Testimonial/>
-   <LeaderShip/>
-   <Footer/>
+   
+   <div className="">
+     <Header/>
+      <HeroSection/>
+      <div className=" p-[60px] flex justify-center relative bg-[#171717]">
+  <img
+    src="/mac.png"
+    alt="Mockup"
+    className="sm:w-[60%]  w-[90%] h-auto" // Make sure the image fits the container
+  />
+
+</div>
+
+
+{/* <Pricing /> */}
+      <Footer/>
+ 
+   </div>
 
   
     
-    
-    </div>
+ 
   );
 }

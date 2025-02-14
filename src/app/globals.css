@@ -3,19 +3,42 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --background: #171717; */
+  /* --background: linear-gradient(124.76deg, #871DD4 10.37%, #276CA8 89.63%); */
+  /* --background: linear-gradient(124.76deg, #871DD4 10.37%, #276CA8 89.63%); */
+
+
+--background: url('noise.svg'),linear-gradient(124.76deg, #171717 10.37%, #242424 89.63%);
+
+  --foreground: #f2f2f2;
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #f3f3f3;
-    --foreground: #171717;
+    /* --background: linear-gradient(124.76deg, #871DD4 10.37%, #276CA8 89.63%); */
+    /* --background: linear-gradient(124.76deg, #242424 10.37%, #171717 89.63%); */
+
+  --foreground: #f2f2f2;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  color: grey;
+  cursor: url('https://coffee-sandye-29.tiiny.site/customcursor.svg'), auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+button{
+  padding: 10px 16px ;
+/* background: linear-gradient(124.76deg, #871DD4 10.37%, #276CA8 89.63%); */
+  color: grey;
+  background-color: #242424;
+  /* border: 1px solid grey; */
+  border-radius:9px ;
+
 }
