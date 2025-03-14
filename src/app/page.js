@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="py-[30px]">
+    <div className="bg-[#ffffff]">
       <Header setshowMenu={setshowMenu} showMenu={showMenu} />
       <ToggleMenu showMenu={showMenu} />
       <HeroSection />
@@ -49,8 +49,8 @@ export default function Home() {
       <Rows />
 
       <LeaderShip />
-      <Rows />
-      <Rows />
+      <div className="h-[45px] w-full hidden sm:block"></div>
+      <div className="h-[45px] w-full hidden sm:block"></div>
       <Footer />
     </div>
   );
