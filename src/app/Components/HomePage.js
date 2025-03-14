@@ -74,8 +74,9 @@ export function AboutSection() {
 
         <div
           style={{ backgroundColor: "#F3F3F3" }}
-          className={`transition-all duration-[1500ms] overflow-y-hidden px-20 ${expanded ? "h-[720px]" : "h-[360px]"
-            }`}
+          className={`transition-all duration-[1500ms] overflow-y-hidden px-20 ${
+    expanded ? "lg:min-h-[720px] md:min-h-[720px] min-h-[900px]" : "lg:min-h-[360px] md:min-h-[360px] min-h-[650px]"
+  }`}
         >
           <Rows />
           <Rows />
