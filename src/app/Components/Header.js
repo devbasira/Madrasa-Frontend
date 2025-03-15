@@ -2,7 +2,7 @@ export default function Header({ setshowMenu, showMenu }) {
   return (
     <header className="flex justify-center w-full sticky top-0 bg-white ">
       <div className="max-w-[1140px] w-full flex justify-between h-[120px] lg:h-[135px] px-5 lg:px-0 py-[20px]">
-        <img src="/logo.svg" height="40px" width="40px" alt="" />
+        <img src="/logo.svg"className="w-[56px] h-[56px] " alt="" />
 
         <div className="flex items- gap-[20px]">
           <div className="hidden text-lg font-medium sm:flex gap-[40px] items-center cursor-pointer">
