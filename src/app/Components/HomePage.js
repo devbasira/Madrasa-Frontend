@@ -124,7 +124,7 @@ export function FeatureCourse() {
   return (
     <div className="flex justify-center w-full px-4 md:px-6 lg:px-0">
       <div className="w-full lg:w-[1140px] flex justify-around sm:justify-between flex-col">
-        <div className="text-[45px]">Feature Course</div>
+        <div className="text-[35px] md:text-[45px] lg:text-[55px]">Feature Course</div>
         <Rows />
         <p className="lg:w-[720px] text-base md:text-lg flex justify-center">
           A 4 years + 2 Years foundational course exclusively for male students,

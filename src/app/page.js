@@ -6,12 +6,12 @@ import {
   HeroSection,
   AboutSection,
   FeatureCourse,
-  Popular,
-  Testimonial,
-  LeaderShip,
   ToggleMenu,
   Rows,
 } from "@/app/Components/HomePage.js";
+import { Leadership } from "./Components/LeaderShip.jsx";
+import { Testimonial } from "./Components/Testimonial.jsx";
+import { PopularCourses } from "./Components/PopularCourses.jsx";
 
 export default function Home() {
   const [showMenu, setshowMenu] = useState(false);
@@ -39,7 +39,7 @@ export default function Home() {
       <Rows />
       <Rows />
 
-      <Popular />
+      <PopularCourses />
 
       <Rows />
       <Rows />
@@ -48,7 +48,7 @@ export default function Home() {
       <Rows />
       <Rows />
 
-      <LeaderShip />
+      <Leadership />
       <div className="h-[45px] w-full hidden sm:block"></div>
       <div className="h-[45px] w-full hidden sm:block"></div>
       <Footer />

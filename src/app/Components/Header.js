@@ -1,6 +1,6 @@
 export default function Header({ setshowMenu, showMenu }) {
   return (
-    <header className="flex justify-center w-full sticky top-0 bg-white ">
+    <header className="flex justify-center w-full sticky top-0 bg-white z-200 bg-[#ffffff]">
       <div className="max-w-[1140px] w-full flex justify-between h-[120px] lg:h-[135px] px-5 lg:px-0 py-[20px]">
         <img src="/logo.svg"className="w-[56px] h-[56px] " alt="" />
 
