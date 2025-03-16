@@ -77,7 +77,7 @@ export function Testimonial() {
                         <AnimatePresence className="" mode="wait">
                             <motion.div
                                 key={testimonials[index].id}
-                                className="text-white lg:mt-0 md:mt-0 mt-2 w-full text-[#696969] lg:text-xl md:text-xl text-lg font-semibold text-start "
+                                className="lg:mt-0 md:mt-0 mt-2 w-full text-[#696969] lg:text-xl md:text-xl text-lg font-semibold text-start"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0, y: -20 }}
